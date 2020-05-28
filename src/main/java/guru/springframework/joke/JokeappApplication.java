@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
-@ImportResource("classpath:chuck-config.xml")
+@ImportResource("classpath:chuck-config.xml")  //importamos el bean definido en el archivo xml
 public class JokeappApplication {
 
 	public static void main(String[] args) {
