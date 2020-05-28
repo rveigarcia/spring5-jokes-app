@@ -4,10 +4,8 @@ import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * Created by jt on 5/25/17.
- */
-@Configuration
+
+@Configuration //creamos una clase de configuración, para devolver citas de Chuck Norris
 public class ChuckConfiguration {
 
     @Bean
